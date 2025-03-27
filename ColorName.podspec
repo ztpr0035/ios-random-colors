@@ -131,6 +131,6 @@ Pod::Spec.new do |spec|
   # spec.dependency "JSONKit", "~> 1.4"
     spec.ios.deployment_target = '15.0'
     spec.frameworks = 'UIKit', 'Foundation'
-    spec.vendored_framework = 'ColorName.xcframework'
+    spec.vendored_frameworks = 'ColorName.xcframework'
     spec.swift_version = '5.0'
 end

@@ -1,0 +1,545 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "ColorName",
+    "printedName": "ColorName",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ColorName",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RandomColorGenrators",
+        "printedName": "RandomColorGenrators",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RandomColorGenrators",
+                "printedName": "ColorName.RandomColorGenrators",
+                "usr": "s:9ColorName06RandomA9GenratorsC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9ColorName06RandomA9GenratorsCACycfc",
+            "mangledName": "$s9ColorName06RandomA9GenratorsCACycfc",
+            "moduleName": "ColorName",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "getRandomColors",
+            "printedName": "getRandomColors()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Colors",
+                "printedName": "ColorName.Colors",
+                "usr": "s:9ColorName6ColorsO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9ColorName06RandomA9GenratorsC03getC6ColorsAA0F0OyF",
+            "mangledName": "$s9ColorName06RandomA9GenratorsC03getC6ColorsAA0F0OyF",
+            "moduleName": "ColorName",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:9ColorName06RandomA9GenratorsC",
+        "mangledName": "$s9ColorName06RandomA9GenratorsC",
+        "moduleName": "ColorName",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Colors",
+        "printedName": "Colors",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "red",
+            "printedName": "red",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ColorName.Colors.Type) -> ColorName.Colors",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Colors",
+                    "printedName": "ColorName.Colors",
+                    "usr": "s:9ColorName6ColorsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ColorName.Colors.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Colors",
+                        "printedName": "ColorName.Colors",
+                        "usr": "s:9ColorName6ColorsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9ColorName6ColorsO3redyA2CmF",
+            "mangledName": "$s9ColorName6ColorsO3redyA2CmF",
+            "moduleName": "ColorName"
+          },
+          {
+            "kind": "Var",
+            "name": "green",
+            "printedName": "green",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ColorName.Colors.Type) -> ColorName.Colors",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Colors",
+                    "printedName": "ColorName.Colors",
+                    "usr": "s:9ColorName6ColorsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ColorName.Colors.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Colors",
+                        "printedName": "ColorName.Colors",
+                        "usr": "s:9ColorName6ColorsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9ColorName6ColorsO5greenyA2CmF",
+            "mangledName": "$s9ColorName6ColorsO5greenyA2CmF",
+            "moduleName": "ColorName"
+          },
+          {
+            "kind": "Var",
+            "name": "yellow",
+            "printedName": "yellow",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ColorName.Colors.Type) -> ColorName.Colors",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Colors",
+                    "printedName": "ColorName.Colors",
+                    "usr": "s:9ColorName6ColorsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ColorName.Colors.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Colors",
+                        "printedName": "ColorName.Colors",
+                        "usr": "s:9ColorName6ColorsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9ColorName6ColorsO6yellowyA2CmF",
+            "mangledName": "$s9ColorName6ColorsO6yellowyA2CmF",
+            "moduleName": "ColorName"
+          },
+          {
+            "kind": "Var",
+            "name": "blue",
+            "printedName": "blue",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ColorName.Colors.Type) -> ColorName.Colors",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Colors",
+                    "printedName": "ColorName.Colors",
+                    "usr": "s:9ColorName6ColorsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ColorName.Colors.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Colors",
+                        "printedName": "ColorName.Colors",
+                        "usr": "s:9ColorName6ColorsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9ColorName6ColorsO4blueyA2CmF",
+            "mangledName": "$s9ColorName6ColorsO4blueyA2CmF",
+            "moduleName": "ColorName"
+          },
+          {
+            "kind": "Var",
+            "name": "white",
+            "printedName": "white",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ColorName.Colors.Type) -> ColorName.Colors",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Colors",
+                    "printedName": "ColorName.Colors",
+                    "usr": "s:9ColorName6ColorsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ColorName.Colors.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Colors",
+                        "printedName": "ColorName.Colors",
+                        "usr": "s:9ColorName6ColorsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9ColorName6ColorsO5whiteyA2CmF",
+            "mangledName": "$s9ColorName6ColorsO5whiteyA2CmF",
+            "moduleName": "ColorName"
+          },
+          {
+            "kind": "Var",
+            "name": "black",
+            "printedName": "black",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ColorName.Colors.Type) -> ColorName.Colors",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Colors",
+                    "printedName": "ColorName.Colors",
+                    "usr": "s:9ColorName6ColorsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ColorName.Colors.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Colors",
+                        "printedName": "ColorName.Colors",
+                        "usr": "s:9ColorName6ColorsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9ColorName6ColorsO5blackyA2CmF",
+            "mangledName": "$s9ColorName6ColorsO5blackyA2CmF",
+            "moduleName": "ColorName"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Colors",
+                "printedName": "ColorName.Colors",
+                "usr": "s:9ColorName6ColorsO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Colors",
+                "printedName": "ColorName.Colors",
+                "usr": "s:9ColorName6ColorsO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9ColorName6ColorsO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s9ColorName6ColorsO2eeoiySbAC_ACtFZ",
+            "moduleName": "ColorName",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9ColorName6ColorsO9hashValueSivp",
+            "mangledName": "$s9ColorName6ColorsO9hashValueSivp",
+            "moduleName": "ColorName",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9ColorName6ColorsO9hashValueSivg",
+                "mangledName": "$s9ColorName6ColorsO9hashValueSivg",
+                "moduleName": "ColorName",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9ColorName6ColorsO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s9ColorName6ColorsO4hash4intoys6HasherVz_tF",
+            "moduleName": "ColorName",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "allCases",
+            "printedName": "allCases",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[ColorName.Colors]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Colors",
+                    "printedName": "ColorName.Colors",
+                    "usr": "s:9ColorName6ColorsO"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9ColorName6ColorsO8allCasesSayACGvpZ",
+            "mangledName": "$s9ColorName6ColorsO8allCasesSayACGvpZ",
+            "moduleName": "ColorName",
+            "static": true,
+            "implicit": true,
+            "declAttributes": [
+              "Nonisolated"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[ColorName.Colors]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Colors",
+                        "printedName": "ColorName.Colors",
+                        "usr": "s:9ColorName6ColorsO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9ColorName6ColorsO8allCasesSayACGvgZ",
+                "mangledName": "$s9ColorName6ColorsO8allCasesSayACGvgZ",
+                "moduleName": "ColorName",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:9ColorName6ColorsO",
+        "mangledName": "$s9ColorName6ColorsO",
+        "moduleName": "ColorName",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CaseIterable",
+            "printedName": "CaseIterable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "AllCases",
+                "printedName": "AllCases",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[ColorName.Colors]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Colors",
+                        "printedName": "ColorName.Colors",
+                        "usr": "s:9ColorName6ColorsO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12CaseIterableP",
+            "mangledName": "$ss12CaseIterableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}
