@@ -1,0 +1,6 @@
+framework module ColorName {
+  umbrella header "ColorName.h"
+  export *
+
+  module * { export * }
+}
