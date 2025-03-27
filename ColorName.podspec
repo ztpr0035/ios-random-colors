@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "ColorName"
-  spec.version = "0.0.5"
+  spec.version = "0.0.6"
   spec.summary      = "Find Color name using the dependency"
 
   # This description is used to generate tags and improve search results.
@@ -131,6 +131,6 @@ Pod::Spec.new do |spec|
   # spec.dependency "JSONKit", "~> 1.4"
     spec.ios.deployment_target = '15.0'
     spec.frameworks = 'UIKit', 'Foundation'
-    spec.vendored_framework = 'ColorName.xcframework'
+    spec.vendored_frameworks = 'ColorName.xcframework'
     spec.swift_version = '5.0'
 end
